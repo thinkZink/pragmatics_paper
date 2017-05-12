@@ -39,10 +39,12 @@
 %% The amsthm package provides extended theorem environments
 %% \usepackage{amsthm}
 
+\usepackage{csquotes}
+
 %% The lineno packages adds line numbers. Start line numbering with
 %% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
 %% for the whole article with \linenumbers after \end{frontmatter}.
-\usepackage{lineno}
+%%\usepackage{lineno}
 
 %% natbib.sty is loaded by default. However, natbib options can be
 %% provided with \biboptions{...} command. Following options are
@@ -65,7 +67,7 @@
 
 % \biboptions{}
 
-\journal{Journal Name}
+\journal{Pragmatics (LING 6425)}
 
 \begin{document}
 
@@ -73,7 +75,7 @@
 
 %% Title, authors and addresses
 
-\title{Unnecessarily Complicated Research Title}
+\title{Robotics' Silent Treatment}
 
 %% use the tnoteref command within \title for footnotes;
 %% use the tnotetext command for the associated footnote;
@@ -100,17 +102,17 @@
 %% \address[label1]{<address>}
 %% \address[label2]{<address>}
 
-\author{John Smith}
+\author{Sydney Zink and Isabel Sharp}
 
-\address{California, United States}
+\address{Cornell University, Ithaca, NY, USA}
 
 \begin{abstract}
 %% Text of abstract
-Suspendisse potenti. Suspendisse quis sem elit, et mattis nisl. Phasellus consequat erat eu velit rhoncus non pharetra neque auctor. Phasellus eu lacus quam. Ut ipsum dolor, euismod aliquam congue sed, lobortis et orci. Mauris eget velit id arcu ultricies auctor in eget dolor. Pellentesque suscipit adipiscing sem, imperdiet laoreet dolor elementum ut. Mauris condimentum est sed velit lacinia placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam diam metus, pharetra vitae euismod sed, placerat ultrices eros. Aliquam tincidunt dapibus venenatis. In interdum tellus nec justo accumsan aliquam. Nulla sit amet massa augue.
+There is a plenitude of silence in human-robot interaction. If this sounds ominous, let us recognize that the sound of silence is indeed pragmatic opportunity in technological design. This in unsurprising. given the copious varieties of silence as occurrent or, at least, claimable in various cultural situations and representations between human beings. While not all technological devices and interfaces are designed to be anthropomorphic, most are designed with the intent of empathy to human experience so as to accommodate attempts and manipulations made of them accordingly. It seems only reasonable that we must first analyze the pragmatics of silence in communication between humans, and only with a pragmatic robustness therein might we then project further analyses to communication between humans and machines, perhaps even informing multiagent communication between robotic systems or between robotic entities across a single system of support.
 \end{abstract}
 
 \begin{keyword}
-Science \sep Publication \sep Complicated
+Pragmatics \sep Robotics \sep Human-Robot Interaction \sep Linguistics
 %% keywords here, in the form: keyword \sep keyword
 
 %% MSC codes here, in the form: \MSC code \sep code
@@ -123,15 +125,25 @@ Science \sep Publication \sep Complicated
 %%
 %% Start line numbering here if you want
 %%
-\linenumbers
+%%\linenumbers
 
 %% main text
-\section{The First Section}
+\section{Defining Silence Requires Defining Communication}
 \label{S:1}
 
-Maecenas \cite{Smith:2012qr} fermentum \cite{Smith:2013jd} urna ac sapien tincidunt lobortis. Nunc feugiat faucibus varius. Ut sed purus nunc. Ut eget eros quis lectus mollis pharetra ut in tellus. Pellentesque ultricies velit sed orci pharetra et fermentum lacus imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse commodo ultrices mauris, condimentum hendrerit lorem condimentum et. Pellentesque urna augue, semper et rutrum ac, consequat id quam. Proin lacinia aliquet justo, ut suscipit massa commodo sit amet. Proin vehicula nibh nec mauris tempor interdum. Donec orci ante, tempor a viverra vel, volutpat sed orci.
+Dennis Kurzon summarizes four types of silence --- conversational, textual, situational, and thematic --- in opening his paper "Thematic Silence as Metaphor" (Kurzon 2009). He describes each of the types as follows:
+\begin{quotation}
+The first - conversational - is the usual type of silence analyzed in the literature. It is the silence of the addressee who does not respond to questions or statements addressed to him/her; it is the silence of a person who is among friends and acquaintances who are having a conversation, but s/he does not participate. The second type, textual silence, is the silence of a reader perhaps at home, or perhaps in the library, and the silence of a worshipper saying a silent prayer. Thirdly, situational silence is similar to textual silence except that there is no text and it often occurs where many people are present, i.e., at war remembrance ceremonies....Thematic silence refers to the omission of a text, of a reference, of mention of a particular topic in the discourse of the speaker....The person is not silent, but is silent \textit{about} a particular topic.
+\end{quotation}
+He goes on to highlight a common thread among the first three silence categories as their ability to be timed. Indeed, this timing shall be important to our address of silence in robotic domains, but all four types shall contribute to its appropriate handling. Important to that last category of silence is not just silence on a particular topic, but also silence as an indicative response in demonstrating an expectation of something being raised that has not been, an anticipatory or pending state if not a silent one of processing next steps with the realization or concession that this absent matter is not going to come up with building silence as encouragement.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque quis interdum velit. Nulla tincidunt sem quis nisi molestie nec hendrerit nulla interdum. Nunc at lectus at neque dapibus dapibus sit amet in massa. Nam ut nisl in diam consectetur dignissim. Sed lacinia diam id nunc suscipit vitae semper lorem semper. In vehicula velit at tortor fringilla elementum aliquam erat blandit. Donec pretium libero et neque vehicula blandit. Curabitur consequat interdum sem at ultrices. Sed at tincidunt metus. Etiam vulputate, lacus eget fermentum posuere, ante mi dignissim augue, et ultrices felis tortor sed nisl.
+One might say that silence is an absence of communication. It seems lacking to suggest, per the contrary, that someone communicating with sign language is being silent; it may make more sense to describe them as \textit{nonverbally communicative}. Likewise, how would we distinguish habitual tapping of a pen on a table from the use of morse code in arguing the latter as communication but the former as the agent being silent? In both cases, the agent is communicative, regardless of intention. It seems everything is communicative, from the appearance of someone shifting in their chair to the sound of them doing so, and with this impression come assumptions that often lead to trouble, such as the argument of \enquote{No} having to be made an obvious communication whereas \enquote{Yes} or consent is the otherwise assumed.
+
+Perhaps all we can do is say that communication is something interpretable. Someone trying to impart something for interpretation but not being read as communicating anything is still communicating. Someone not meaning to communicate anything but being read as communicating something is still communicating. The reason it is important to define communication for our purposes is because this leaves us to posit the following:
+\begin{quotation}
+Silence is the absence of communication.
+\end{quotation}
+We could consider silence to be a wielded property or device of an agent, but in defining silence for a context, we would define silence as the absence of communication by all components of the context, including living agents and environmental entities alike. It is not phonologically dependent, nor semantically or otherwise, but is pragmatically so.
 
 \begin{itemize}
 \item Bullet point one
